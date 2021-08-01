@@ -1,6 +1,5 @@
 package com.calculator;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Operation {
@@ -8,7 +7,6 @@ public class Operation {
     Scanner scanner = new Scanner(System.in);
 
     public String plus() {
-
         System.out.println("Введите первое число");
         int num1 = scanner.nextInt();
         System.out.println("Введите второе число");
@@ -18,6 +16,7 @@ public class Operation {
         return Integer.toString(result);
     }
 
+    
     public String minus() {
         System.out.println("Введите первое число");
         int num1 = scanner.nextInt();
@@ -28,6 +27,7 @@ public class Operation {
         return Integer.toString(result);
     }
 
+    
     public String multiplication() {
         System.out.println("Введите первое число");
         int num1 = scanner.nextInt();
@@ -38,6 +38,7 @@ public class Operation {
         return Integer.toString(result);
     }
 
+    
     public String division() {
         System.out.println("Введите первое число");
         double num1 = scanner.nextDouble();
@@ -48,5 +49,6 @@ public class Operation {
         return Double.toString(result);
     }
 
+    
 }
 
