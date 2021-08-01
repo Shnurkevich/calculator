@@ -15,6 +15,7 @@ public class Calculator {
                         "\n 2 - Вычитание \n 3 - Умножение \n 4 - Деление \n 5 - Выход из приложения");
 
                 String input = scanner.nextLine();
+                
                 try{
                     switch (input) {
                     case ("1"):
