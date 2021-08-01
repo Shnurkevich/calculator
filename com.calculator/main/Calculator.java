@@ -1,4 +1,4 @@
-package com.calculator;
+package com.calculator.main;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
